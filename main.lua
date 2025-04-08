@@ -1,14 +1,14 @@
     local url = "" --Webhook Bot Url
     local ssc = "Update :" --Update Log
     local MarketplaceService = game:GetService("MarketplaceService")
-    local cc = "v1.0.1" -- Version
+    local cc = "v1.0" -- Version
     local gamename = MarketplaceService:GetProductInfo(game.PlaceId).Name  
     local gamename2 = MarketplaceService:GetProductInfo(game.PlaceId).Name  
     local placeid = game.PlaceId
     local gamelink = "https://www.roblox.com/games/"
     
        local data = {
-        ["username"] = 'Perfectus Update Bot',
+        ["username"] = ' pdate Bot',
         ['content'] = "", --emoji-id or channel-id or role-id
         ["avatar_url"] = "",
         ["embeds"] = {
@@ -45,7 +45,7 @@
                 },
                 ["footer"] = {
                     ["text"] = "Updated",
-                    ["icon_url"] = "https://cdn3.emoji.gg/emojis/4532-roleiconmod.png",
+                    ["icon_url"] = "",
                 },
                 ["timestamp"] = DateTime.now():ToIsoDate(),
             }
